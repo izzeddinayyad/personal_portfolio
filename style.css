@@ -1,0 +1,91 @@
+*{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* #D1884F, #008AAA, #3BBADB */
+/* header section ////////////*/
+header .container{
+    display: flex;
+    justify-content: end;
+}
+nav ul {
+    padding: 50px 0;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#000 ;
+    padding: 5px;
+}
+.active{
+    color: #D1884F;
+}
+/* content section ///////////////// */
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-content .left-side{
+    width: 50%;
+    margin-right:70px ;
+}
+.left-side h3{
+    font-size: 25px;
+    color:#3BBADB ;
+    margin-bottom: 100px;
+}
+.left-side h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #008AAA;
+    margin-bottom: 100px;
+}
+.left-side h2 span{
+    color: #D1884F;
+}
+.left-side p{
+    margin-bottom: 70px;
+}
+.left-side p a{
+    color: #008AAA;
+    text-decoration: none;
+}
+.left-side .content-btn a{
+    border-radius: 5px;
+    padding: 4px 15px;
+    margin-top: 70px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn1{
+    color: white;
+    margin-right: 20px;
+    background: #008AAA;
+    border: 0;
+
+}
+.btn2{
+    color: #008AAA;
+    border: 1px solid #008AAA;
+    background: #fff;
+}
+.header-content .right-side{
+    width: 50%;
+}
+.header-content .right-side .logo{
+    width: 100%;
+    border-radius: 0px 0px 0px 150px;
+    box-shadow: -30px 7px 0px -6px #3BBADB;
+}
