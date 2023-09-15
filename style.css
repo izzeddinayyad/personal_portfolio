@@ -15,7 +15,7 @@ header .container{
     justify-content: end;
 }
 nav ul {
-    padding: 50px 0;
+    padding: 30px 0;
     list-style: none;
 }
 nav ul li{
@@ -32,13 +32,13 @@ nav ul li a{
 }
 
 /* content section ///////////////// */
-.content-section-item{
+section.content-section-item{
     display: flex;
     justify-content: space-between;
     
 }
-.content-section-item .left-side{
-    width: 50%;
+section.content-section-item .left-side{
+    flex: 1;
     margin-right:70px ;
 }
 .left-side h3{
@@ -46,17 +46,18 @@ nav ul li a{
     color:#3BBADB ;
     margin-bottom: 100px;
 }
-.left-side h2{
+.left-side h1{
     font-size: 35px;
     font-weight: bold;
     color: #008AAA;
     margin-bottom: 100px;
 }
-.left-side h2 span{
+.left-side head span{
     color: #D1884F;
 }
-.left-side p{
-    margin-bottom: 70px;
+.left-side .desc{
+    margin-bottom: 50px;
+    /* color: ; */
 }
 .left-side p a{
     color: #008AAA;
@@ -65,29 +66,32 @@ nav ul li a{
 .left-side .content-btn a{
     border-radius: 5px;
     padding: 4px 15px;
-    margin-top: 70px;
+    margin-top: 60px;
     cursor: pointer;
     text-decoration: none;
 }
-.btn1{
+.btn{
     color: white;
     margin-right: 20px;
     background: #008AAA;
     border: 0;
 
 }
-.btn2{
+.outline-btn{
     color: #008AAA;
     border: 1px solid #008AAA;
     background: #fff;
 }
-.content-section-item .right-side{
-    width: 50%;
+section.content-section-item .right-side{
+    flex: 1 ;
 }
-.content-section-item .right-side .logo{
-    width: 100%;
+section.content-section-item .right-side img{
+    width: 75%;
+    margin-left: 120px;
+    /* height: 100%; */
     border-radius: 0px 0px 0px 150px;
     box-shadow: -30px 7px 0px -6px #3BBADB;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 480px) {
@@ -128,16 +132,14 @@ nav ul li a{
         text-align: center;
         margin-top: 20px !important;
     }
-    .btn2{
+    .outline-btn{
         margin-bottom: 20px !important;
-
     }
-    .content-section-item .right-side .logo{
+    .content-section-item .right-side img{
         width: 100%;
         border-radius: 50%;
         margin-bottom: 40px;
         box-shadow: 0px 7px 0px -6px #3BBADB;
-
     }
 }
 @media screen and (max-width: 720px) {
@@ -179,7 +181,7 @@ nav ul li a{
         text-align: center;
         margin-top: 20px !important;
     }
-    .btn2{
+    .outline-btn{
         margin-bottom: 20px !important;
 
     }
