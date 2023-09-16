@@ -36,12 +36,12 @@ nav ul li a{
 section.content-section-item{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
     
 }
 section.content-section-item .left-side{
     flex: 1;
-    margin-right:70px ;
+    margin-right:30px ;
 }
 .left-side h3{
     font-size: 25px;
@@ -58,7 +58,7 @@ section.content-section-item .left-side{
     color: #D1884F;
 }
 .left-side .desc{
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     /* color: ; */
 }
 .left-side p a{
@@ -127,7 +127,7 @@ section.content-section-item .right-side img{
         text-align: center;
     }
     .left-side p{
-        margin-bottom: 30px;
+        margin-bottom: 70px;
         text-align: center;
     }
     .left-side h1{
@@ -176,7 +176,7 @@ section.content-section-item .right-side img{
         text-align: center;
     }
     .left-side p{
-        margin-bottom: 30px;
+        margin-bottom: 70px;
         text-align: center;
     }
     .left-side h1{
